@@ -73,3 +73,7 @@ Latitude: 13.7563, Longitude: 100.5018
 - Uses simulated GPS coordinates (Bangkok default)
 - Designed for educational/experimental use
 - Requires real GPS hardware for production deployment
+
+To see the working of the model: 
+Click this link: https://youtu.be/FdkEr7lI52Q
+Click this link: https://youtu.be/eCiWrlaz4-c
