@@ -1,72 +1,59 @@
+Here's a refined version of your README.md with improved structure and clarity while maintaining all key elements:
 
 ```markdown
 # 🚨 Wearable GPS Tracker (Simulation)
 
-A Java-based simulation of a wearable GPS tracker designed for disaster management scenarios (e.g., tracking fishermen at sea). This project simulates real-time location tracking using wearable devices like watches, pins, or shirts.
+A Java-based simulation of wearable GPS tracking for disaster management scenarios. Simulates real-time location monitoring for maritime workers like fishermen using wearable devices.
 
 ---
 
-## 🌟 Features
-
-✅ Real-time GPS logging (simulated)  
-✅ Wearable device simulation  
-✅ Clean, modular Java code  
-✅ Easily extendable with additional features (e.g., alerts, analytics, visualization)
+## 🌟 Key Features
+- Real-time GPS position logging (simulated data)
+- Modular OOP design with clear separation of concerns
+- Device simulation for wearables (watches/pins/shirts)
+- Extensible architecture for additional features
 
 ---
 
-## 📦 Project Structure
-
+## 📂 Project Structure
 ```
 wearable-tracker/
-│
 ├── src/
 │   ├── main/
-│   │   └── Main.java
-│   │
+│   │   └── Main.java                  # Application entry point
 │   ├── device/
-│   │   └── WearableDevice.java
-│   │
+│   │   └── WearableDevice.java        # Device representation
 │   └── service/
-│       └── TrackerService.java
-│
+│       └── TrackerService.java        # Tracking logic manager
 ├── README.md
-│
 └── .gitignore
-
-````
-
----
-
-## 🛠️ Prerequisites
-
-- **Java 11+** (or higher)
-- Basic understanding of Java (classes, packages, etc.)
+```
 
 ---
 
-## 🔌 How to Run
+## ⚙️ Requirements
+- **Java JDK 11+**
+- Terminal/Command Prompt access
 
-### 1. Compile
+---
 
-Using terminal:
-```bash
+## 🚦 Execution Guide
+
+### Compilation
+```
 cd wearable-tracker
 javac src/main/Main.java src/device/WearableDevice.java src/service/TrackerService.java
-````
+```
 
-*(On Windows, use `\` instead of `/` for paths.)*
+*Windows path format:*  
+`javac src\main\Main.java src\device\WearableDevice.java src\service\TrackerService.java`
 
-### 2. Run
-
-```bash
+### Execution
+```
 java -cp src main.Main
 ```
 
-### 3. Output
-
-You should see:
-
+### Expected Output
 ```
 Device Device001 is being tracked...
 Latitude: 13.7563, Longitude: 100.5018
@@ -74,20 +61,15 @@ Latitude: 13.7563, Longitude: 100.5018
 
 ---
 
-## 🚀 Next Steps
-
-Here are some ideas to extend this project:
-
-✅ Integrate with a database for logs
-✅ Add a map visualization (e.g., use a web dashboard or external API)
-✅ Implement SOS alerts
-✅ Create a mobile or web interface
-✅ Integrate real GPS modules and sensors
+## 🔄 Potential Enhancements
+- **Data Visualization**: Web dashboard integration
+- **Alert System**: SOS emergency notifications
+- **Hardware Integration**: Actual GPS module support
+- **Analytics Engine**: Movement pattern analysis
 
 ---
 
-## 📌 Notes
-
-* The GPS coordinates in this simulation are hardcoded or randomly generated for demonstration.
-* For a real-world deployment, integrate with an actual GPS module or mobile device API.
-
+## 📝 Implementation Notes
+- Uses simulated GPS coordinates (Bangkok default)
+- Designed for educational/experimental use
+- Requires real GPS hardware for production deployment
