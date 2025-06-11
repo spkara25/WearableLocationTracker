@@ -18,22 +18,21 @@ A Java-based simulation of a wearable GPS tracker designed for disaster manageme
 ## 📦 Project Structure
 
 ```
-
 wearable-tracker/
 │
 ├── src/
 │   ├── main/
-│   │   └── Main.java                  # Entry point of the app
+│   │   └── Main.java
 │   │
 │   ├── device/
-│   │   └── WearableDevice.java        # Represents the wearable device
+│   │   └── WearableDevice.java
 │   │
 │   └── service/
-│       └── TrackerService.java        # Handles location tracking and management
+│       └── TrackerService.java
 │
-├── README.md                          # Project documentation
+├── README.md
 │
-└── .gitignore                         # Optional - ignore compiled files, IDE settings, etc.
+└── .gitignore
 
 ````
 
